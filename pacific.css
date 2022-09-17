@@ -1,0 +1,147 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+
+/* Styling for whole body of the document */
+body {
+	background-color: #00569f;
+	background-image: url(ptrbackground.jpg);
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Default styling for the headers */
+h2 {
+	color: #3399CC;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Styling for the elements in the wrapper id */
+#wrapper {
+	background-color: lightblue;
+	overflow: auto;
+	width: 80%;
+	margin: auto;
+	min-width: 1000px;
+}
+
+#wrapper h1 {
+	margin: 0;
+	padding: 15px;
+	color: white;
+	font-size: 40px;
+}
+
+/* The styling for the header */
+header {
+	background-color: #000033;
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+/* all the spans in the resort class */
+span.resort {
+	color: rgb(69, 111, 167);
+	font-weight: bold;
+}
+
+#content p {
+	margin-left: 0;
+	text-align: left;
+}
+
+/* All the styling for the elements in the content id */
+#content {
+	background-color: white;
+	margin: 0;
+	padding: 3%;
+	float: right;
+	width: 80%;
+	min-width: 400px;
+	margin-left: -1px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+#content img{
+	float: left;
+	margin-right: 3%;
+	width: 425px;
+	height: auto;
+}
+
+#content h2 {
+	font-size: 30px;
+	margin: 0;
+	margin-bottom: 3%;
+}
+
+#content ul{
+	list-style-image: url(marker.gif);
+	padding: 0;
+}
+
+
+/* Styling for the nav bar on the left */
+nav{
+	min-width: 20%;
+	background-color: lightblue;
+	margin: 0;
+	margin-right: 1px;
+	float: left;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0;
+	color: darkblue;
+}
+
+nav a:visited {
+	color: darkblue;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+
+#contact {
+	font-size: 90%;
+	align-self: left;
+}
+
+
+dt {
+	color: #000033;
+}
+
+/* Styling for the Footer */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: white;
+	padding: 3%;
+	font-style: italic;
+	float: right;
+	width: 80%;
+	box-sizing: border-box;
+}
+
+
+
